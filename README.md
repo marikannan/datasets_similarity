@@ -123,13 +123,6 @@ CPU Usage: ( around 30% spikes in CPU utilization )
 # Source Code:
 
 The source code is organized in such a way that it can be used as an API in any other application copying similar.c and similar.h.
-## API functions:
-* load_dataset1   - Load the dataset 1 into memory.
-Usage: void load_dataset1(char *filename)
-* join_datasets    - Join dataset1 with dataset2.
-Usage: void join_datasets (char *filename);
-* print_similar    - Print the similar records in datasets against dataset1.
-Usage: void print_similar(void)
 
 ``` bash
 /Users/user/wkarea/ $ tree
@@ -148,3 +141,10 @@ Usage: void print_similar(void)
 3 directories, 7 files
 /Users/user/wkarea/ $ 
 ```
+## API functions:
+* load_dataset1   - Load the dataset 1 into memory.
+Usage: void load_dataset1(char *filename)
+* join_datasets    - Join dataset1 with dataset2.
+Usage: void join_datasets (char *filename);
+* print_similar    - Print the similar records in datasets against dataset1.
+Usage: void print_similar(void)
