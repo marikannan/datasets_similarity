@@ -108,13 +108,14 @@ The entire datasets datset1 & dataset2 ( 100K vs 10 million records ) are scanne
 
 
 Ran in the background ( application name: similar ):
-~/assignment $ nohup time ./similar > stats/output_withduration & 
+``` bash
+$ nohup time ./similar > stats/output_withduration & 
 [2]	2227
 
 /Users/user/wkarea//stats $ jobs
 [2] +  Running                 nohup time ./similar > stats/output_withduration &
 [1] -  Running                 nohup top -l 1440 -s 5 -pid 2313 > top_statistics.txt &
-
+```
 
 CPU Usage: ( around 30% spikes in CPU utilization )
 
