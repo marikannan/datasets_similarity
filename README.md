@@ -89,9 +89,6 @@ total 665440
  10100000 total
 ```
 
-# Test Environment/Configuration
-{ image }
-
 # Output Matched Records
 The entire datasets datset1 & dataset2 ( 100K vs 10 million records ) are scanned and completed in 2 mins 8 secs.
 
